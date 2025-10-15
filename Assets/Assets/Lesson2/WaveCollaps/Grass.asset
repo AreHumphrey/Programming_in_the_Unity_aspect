@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b13f862a069fb247b5e089a377cc44e, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  tile: {fileID: 8142551957074409587, guid: 7bef43b94a28a4b4089716be97035a2f, type: 3}
+  probabilitys:
+  - prob: 0.05
+    tile: {fileID: 1976591319721761305, guid: 76d0797ee6b1e324b9e271c19dd524ea, type: 3}
+  - prob: 0.2
+    tile: {fileID: 2430274283751311126, guid: b215dbabcba77f84db35932c4ab06557, type: 3}
+  - prob: 0.68
+    tile: {fileID: 8142551957074409587, guid: 7bef43b94a28a4b4089716be97035a2f, type: 3}
+  - prob: 0.07
+    tile: {fileID: 5852245290987440894, guid: 9ced0dab83d15f94eb6c316d6f8f568c, type: 3}
